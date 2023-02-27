@@ -167,3 +167,37 @@ a:hover {
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
+
+@keyframes brightup {
+    0% {
+        filter: brightness(1);
+        -webkit-filter: brightness(1);
+    }
+
+    100% {
+        filter: brightness(2);
+        -webkit-filter: brightness(2);
+    }
+}
+
+@keyframes brightdown {
+    0% {
+        filter: brightness(2);
+        -webkit-filter: brightness(2);
+    }
+
+    100% {
+        filter: brightness(1);
+        -webkit-filter: brightness(1);
+    }
+}
+
+.brightness {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.brightness:hover {
+    filter: brightness(2);
+    -webkit-filter: brightness(2);
+}

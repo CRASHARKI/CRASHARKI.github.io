@@ -1,40 +1,35 @@
 ﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>CRASH BANDICOOT N-OFFICIAL</title>
-    <meta name="keywords" content="crash bandicoot, crash nitro kart, wrath of cortex, the huge adventure, n-tranced, coco, crunch, downloads, screenshots, video game, community, entertainment, universal, universal interactive, vivendi, vivendi universal games" />
-    <meta name="description" content="Welcome to the unofficial website for the Crash Bandicoot series of videogames." />
+    <meta name="keywords"
+        content="crash bandicoot, crash nitro kart, wrath of cortex, the huge adventure, n-tranced, coco, crunch, downloads, screenshots, video game, community, entertainment, universal, universal interactive, vivendi, vivendi universal games" />
+    <meta name="description"
+        content="Welcome to the unofficial website for the Crash Bandicoot series of videogames." />
     <script language="javascript" type="text/javascript" src="./js/main.js"></script>
-    <!--<link rel="stylesheet" type="./text/css" href="./css/main.css" />-->
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <style type="text/css">
-        td {
-            font-family: Arial, Verdana, sans-serif;
-            color: #FFFFFF;
-            font-size: 10px;
-        }
-
-        #title {
-            font-family: Arial, Verdana, sans-serif;
-            color: #FFCD20;
-            font-size: 10px;
-        }
-
-        #legal {
-            font-family: Arial, Verdana, sans-serif;
-            color: #FFFFFF;
-            font-size: 9px;
-        }
-
-        a {
-            color: #FFCD20;
-            text-decoration: none;
-        }
-
-            a:hover {
-                text-decoration: underline;
+        @keyframes splash {
+            0% {
+                width: 0%;
+                /* transform: rotate(360deg); */
             }
+
+            100% {
+                width: 100%;
+                transform: rotate(0deg);
+            }
+        }
+
+        #splash {
+            animation-name: splash;
+            animation-duration: 0.4s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
     </style>
     <script language="javascript">
         var buttons = new Array();
@@ -45,84 +40,121 @@
         buttons[4] = "./images/common/button_it_on.gif";
     </script>
 </head>
-<body background="./images/common/background_splash.gif" bgcolor="#EED000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;" onload="MM_preloadImages(buttons[0],buttons[1],buttons[2],buttons[3],buttons[4]);">
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" style="position: absolute">
-            <tr>
-                <td align="center" valign="center">
 
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                            <td align="center">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td valign="bottom"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('english','',buttons[0],1)" href="./uk/HomeUK.html">
-                                            <img name="english" src="./images/common/button_uk_off.gif" border="0"/></a></td>
-                                        <td colspan="4">
-                                            <img src="./images/common/splash.png" border="0"/></td>
-                                        <td valign="bottom"><a href="http://www.crashbandicoot.com/">
-                                            <img name="us" src="./images/common/button_us.gif" border="0"/></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>&nbsp;</td>
-                                        <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('german','',buttons[1],1)" href="./de/HomeDE.html">
-                                            <img name="german" src="./images/common/button_de_off.gif" border="0"/></a></td>
-                                        <td align="center">
-                                            <br/>
-                                            <br/>
-                                            <a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('francais','',buttons[2],1)" href="./fr/HomeFR.html">
-                                                <img name="francais" src="./images/common/button_fr_off.gif" border="0"/></a></td>
-                                        <td align="center">
-                                            <br/>
-                                            <br/>
-                                            <a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('espanol','',buttons[3],1)" href="./es/HomeES.html">
-                                                <img name="espanol" src="./images/common/button_es_off.gif" border="0"/></a></td>
-                                        <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('italiano','',buttons[4],1)" href="./it/HomeIT.html">
-                                            <img name="italiano" src="./images/common/button_it_off.gif" border="0"/></a></td>
-                                        <td>&nbsp;</td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="./images/common/footer_top.gif" width="100%" height="25" border="0" valign="bottom"/></td>
-                        </tr>
-                        <tr>
-                            <td bgcolor="#000000" align="center">
-                                <table border="0" cellpadding="0" cellspacing="5" width="700">
-                                    <tr>
-                                        <td>
-                                            <img alt="Activision" src="./images/logos/footer/5.jpg"/></td>
-                                        <td>
-                                            <img alt="Playstation" src="./images/logos/footer/2.jpg"/></td>
-                                        <td>
-                                            <img alt="Playstation4" src="./images/logos/footer/3.jpg"/></td>
-                                        <td>
-                                            <img alt="Nintendo Switch" src="./images/logos/footer/1.jpg"/></td>
-                                        <td>
-                                            <img alt="XBox One" src="./images/logos/footer/6.jpg"/></td>
-                                        <td>
-                                            <img alt="Steam" src="./images/logos/footer/8.jpg"/></td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="./images/common/footer_bottom.gif" width="100%" height="25" border="0"/></td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <table border="0" cellpadding="0" cellspacing="0" width="700">
-                                    <tr>
-                                        <td align="center"><font id="legal">© 2022 Activision Publishing Inc. ACTIVISION, CRASH TEAM RACING, CTR, CRASH BANDICOOT, CRASH and CRASH: ON THE RUN! are trademarks of Activision Publishing, Inc. The rating icon is a trademark of the Entertainment Software Association. All other trademarks and trade names are the properties of their respective owners.</font></td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+<body background="./images/common/background_splash.gif" bgcolor="#EED000" leftmargin="0" topmargin="0" marginwidth="0"
+    marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;"
+    onload="MM_preloadImages(buttons[0],buttons[1],buttons[2],buttons[3],buttons[4]);">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" style="position: absolute">
+        <tr>
+            <td align="center" valign="center">
+
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td align="center">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="bottom"><a onmouseout="MM_swapImgRestore()"
+                                            onmouseover="MM_swapImage('english','',buttons[0],1)"
+                                            href="./uk/HomeUK.html">
+                                            <img name="english" src="./images/common/button_uk_off.gif"
+                                                border="0" /></a></td>
+                                    <td colspan="4" align="center">
+                                        <img id="splash" src="./images/common/splash.png" border="0" />
+                                    </td>
+                                    <td valign="bottom"><a href="http://www.crashbandicoot.com/">
+                                            <img name="us" src="./images/common/button_us.gif" border="0" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()"
+                                            onmouseover="MM_swapImage('german','',buttons[1],1)"
+                                            href="./de/HomeDE.html">
+                                            <img name="german" src="./images/common/button_de_off.gif" border="0" /></a>
+                                    </td>
+                                    <td align="center">
+                                        <br />
+                                        <br />
+                                        <a onmouseout="MM_swapImgRestore()"
+                                            onmouseover="MM_swapImage('francais','',buttons[2],1)"
+                                            href="./fr/HomeFR.html">
+                                            <img name="francais" src="./images/common/button_fr_off.gif"
+                                                border="0" /></a>
+                                    </td>
+                                    <td align="center">
+                                        <br />
+                                        <br />
+                                        <a onmouseout="MM_swapImgRestore()"
+                                            onmouseover="MM_swapImage('espanol','',buttons[3],1)"
+                                            href="./es/HomeES.html">
+                                            <img name="espanol" src="./images/common/button_es_off.gif"
+                                                border="0" /></a>
+                                    </td>
+                                    <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()"
+                                            onmouseover="MM_swapImage('italiano','',buttons[4],1)"
+                                            href="./it/HomeIT.html">
+                                            <img name="italiano" src="./images/common/button_it_off.gif"
+                                                border="0" /></a></td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/common/footer_top.gif" width="100%" height="25" border="0"
+                                valign="bottom" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#000000" align="center">
+                            <table border="0" cellpadding="0" cellspacing="5" width="740">
+                                <tr>
+                                    <td>
+                                        <img alt="Activision" src="./images/logos/footer/5.jpg" />
+                                    </td>
+                                    <td>
+                                        <img alt="Playstation" src="./images/logos/footer/2.jpg" />
+                                    </td>
+                                    <td>
+                                        <img alt="Playstation4" src="./images/logos/footer/3.jpg" />
+                                    </td>
+                                    <td>
+                                        <img alt="Nintendo Switch" src="./images/logos/footer/1.jpg" />
+                                    </td>
+                                    <td>
+                                        <img alt="XBox One" src="./images/logos/footer/6.jpg" />
+                                    </td>
+                                    <td>
+                                        <img alt="Steam" src="./images/logos/footer/8.jpg" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./images/common/footer_bottom.gif" width="100%" height="25" border="0" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table border="0" cellpadding="0" cellspacing="0" width="700">
+                                <tr>
+                                    <td align="center">
+                                        <font id="legal">© 2022 Activision Publishing Inc. ACTIVISION, CRASH TEAM
+                                            RACING, CTR, CRASH BANDICOOT, CRASH and CRASH: ON THE RUN! are trademarks of
+                                            Activision Publishing, Inc. The rating icon is a trademark of the
+                                            Entertainment Software Association. All other trademarks and trade names are
+                                            the properties of their respective owners.</font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>

@@ -1,6 +1,167 @@
+td {
+    font-family: Arial, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 10px;
+}
 
-td {font-family: Arial, Verdana, sans-serif;color: #FFFFFF;font-size: 10px;}
-#title {font-family: Arial, Verdana, sans-serif;color: #FFCD20;font-size: 10px;}
-#legal {font-family: Arial, Verdana, sans-serif;color: #FFFFFF;font-size: 9px;}
-a {color: #FFCD20;text-decoration: none;}
-a:hover {text-decoration: underline;}
+#title {
+    font-family: Arial, Verdana, sans-serif;
+    color: #FFCD20;
+    font-size: 10px;
+}
+
+#legal {
+    font-family: Arial, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+a {
+    color: #FFCD20;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'AdLib WGL4 BT';
+    src: url("../font/AdLib WGL4 BT Regular.ttf");
+}
+
+.global-nav-container {
+    background: url(../images/common/top_bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.lang {
+    width: 105px;
+    height: 503px;
+    background: url(../images/common/lang_side.png);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#header {
+    width: 780px;
+    height: 204px;
+    background: url(../images/common/header.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menuItem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.cool-font {
+    font-family: 'AdLib WGL4 BT';
+    color: #FFFFFF;
+}
+
+.cool-title {
+    -webkit-text-stroke: 1px #CD3137;
+    font-family: 'AdLib WGL4 BT';
+    color: #E8CB00;
+}
+
+.base-body {
+    padding: 2em;
+    text-align: center;
+    background: url(../images/common/bg.jpg);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: repeat-y;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.content {
+    font-family: 'AdLib WGL4 BT';
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+    background: url(../images/common/container.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px 5px 0px black;
+}
+
+.content-mini {
+    font-family: 'AdLib WGL4 BT';
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background: url(../images/common/container_mini.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.appear {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}

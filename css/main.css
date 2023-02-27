@@ -160,8 +160,10 @@ a:hover {
 }
 
 .appear {
+    opacity: 0;
     animation-name: appear;
     animation-duration: 1s;
+    animation-delay: 0.3s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }

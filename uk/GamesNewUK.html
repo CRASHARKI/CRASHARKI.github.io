@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CRASH BANDICOOT N-OFFICIAL</title>
+    <meta name="keywords"
+        content="crash bandicoot, crash nitro kart, wrath of cortex, the huge adventure, n-tranced, coco, crunch, downloads, screenshots, video game, community, entertainment, universal, universal interactive, vivendi, vivendi universal games" />
+    <meta name="description"
+        content="Welcome to the unofficial website for the Crash Bandicoot series of videogames." />
+    <script language="javascript" type="text/javascript" src="../js/main.js"></script>
+    <script language="javascript">
+        var lang = "UK";
+
+        function clubnews() {
+            launch('./html/popups/clubnews' + lang + '.html', 'whatsnew', '570', '550', 'yes', 'no');
+        }
+
+        function privacy() {
+            launch('./html/popups/privacy' + lang + '.html', 'privacy', '570', '460', 'yes', 'no');
+        }
+
+        function support() {
+            launch('./html/popups/support' + lang + '.html', 'support', '570', '460', 'yes', 'no');
+        }
+
+        function register() {
+            launch('http://www.vugames-europe.com/Eregistrations/ereg' + lang.toLowerCase() + '.htm', 'register', '600', '600', 'no', 'no');
+        }
+
+        function newsletter() {
+            launch('http://www.vugames-europe.com/newsletters/vug/newsletter_portal_' + lang.toLowerCase() + '.html', 'newsletter', '400', '430', 'no', 'no');
+        }
+
+        function screensaverinstructions(type) {
+            launch('./html/popups/install_screensaver_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
+        }
+
+        function wallpaperinstructions(type) {
+            launch('./html/popups/install_wallpaper_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
+        }
+
+        var backImage = new Array();
+        backImage[0] = "../images/common/background.gif";
+        backImage[1] = "../images/common/background_crashclub.gif";
+        function changeBGImage(whichImage) {
+            if (document.body) {
+                document.body.background = backImage[whichImage];
+            }
+        }
+
+        var buttons = new Array();
+        buttons[5] = "./images/header/home_on.png";
+        buttons[6] = "./images/header/games_on.png";
+        buttons[7] = "./images/header/characters_on.png";
+        buttons[8] = "./images/header/downloads_on.png";
+        buttons[9] = "./images/header/links_on.png";
+        buttons[10] = "./images/header/purchase_on.png";
+        buttons[11] = "./images/header/news_on.png";
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+</head>
+
+<body background="../images/common/background.gif" bgcolor="#053D6F" leftmargin="0" topmargin="0" marginwidth="0"
+    marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;">
+    <div class="global-nav-container">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td></td>
+                <td align="center" width="780px" height="204px">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="header">
+                        <tr height="138px">
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="710px">
+                                    <tr>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('home','',buttons[5],1)" href="./HomeUK.html">
+                                                <img name="home" src="./images/header/home_off.png" border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('games','',buttons[6],1)"
+                                                href="./GamesUK.html">
+                                                <img name="games" src="./images/header/games_off.png" border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('characters','',buttons[7],1)"
+                                                href="./CharactersUK.html">
+                                                <img name="characters" src="./images/header/characters_off.png"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('downloads','',buttons[8],1)"
+                                                href="./DownloadsUK.html">
+                                                <img name="downloads" src="./images/header/downloads_off.png"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('news','',buttons[11],1)"
+                                                href="./NewsUK.html">
+                                                <img name="news" src="./images/header/news_off.png" border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('links','',buttons[9],1)"
+                                                href="./LinksUK.html">
+                                                <img name="links" src="./images/header/links_off.png" border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a onmouseout="MM_swapImgRestore()"
+                                                onmouseover="MM_swapImage('purchase','',buttons[10],1)"
+                                                href="https://www.crashbandicoot.com/crash4/buy">
+                                                <img name="purchase" src="./images/header/purchase_off.png"
+                                                    border="0" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"
+        style="margin-top: 160px; margin-bottom: 160px;">
+        <tbody>
+            <tr>
+                <td width="10%" valign="top" style="min-width: 125px;">
+                    <table border="0" cellpadding="0" cellspacing="5" class="lang">
+                        <tr align="center">
+                            <td><a href="../uk/GamesNewUK.html">
+                                    <img class="brightness" name="english" src="../images/common/button_uk.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../de/GamesNewDE.html">
+                                    <img class="brightness" name="german" src="../images/common/button_de.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../fr/GamesNewFR.html">
+                                    <img class="brightness" name="francais" src="../images/common/button_fr.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../es/GamesNewES.html">
+                                    <img class="brightness" name="espanol" src="../images/common/button_es.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../it/GamesNewIT.html">
+                                    <img class="brightness" name="italiano" src="../images/common/button_it.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="http://www.crashbandicoot.com/">
+                                    <img class="brightness" name="us" src="../images/common/button_us.png"
+                                        border="0" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="center">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"
+                        style="margin-top: 1em;">
+                        <tbody>
+                            <tr>
+                                <td class="base-body">
+                                    <table class="appear" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td valign="top">
+                                                <div class="content">
+                                                    <table width="100%">
+                                                        <tr>
+                                                            <td valign="top" style="padding-right: 10px;">
+                                                                <table width="100%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h1 class="cool-title"
+                                                                                style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                                Crash Bandicoot™ N. Sane Trilogy</h1>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 20px; text-align: justify; margin: 0;">
+                                                                                SPIN, JUMP & WUMP!</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                                Your favorite marsupial, Crash
+                                                                                Bandicoot®, is back and he’s enhanced,
+                                                                                entranced & ready-to-dance! Now you can
+                                                                                experience Crash Bandicoot like never
+                                                                                before in fully-remastered HD graphical
+                                                                                glory.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                                Take on the epic challenges and
+                                                                                adventures of the three games that
+                                                                                started it all, Crash Bandicoot®, Crash
+                                                                                Bandicoot® 2: Cortex Strikes Back and
+                                                                                Crash Bandicoot®: Warped.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                &nbsp;</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (PlayStation 4): June 30,
+                                                                                2017.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (Others): June 29, 2018.
+                                                                            </p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td style="width: 54%;">
+                                                                <div class="content-mini">
+                                                                    <table align="center">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <img src="./images/games/cbnst_ps4.png"
+                                                                                    border="0" />
+                                                                                <img src="./images/games/cbnst_switch.png"
+                                                                                    border="0" />
+                                                                                <img src="./images/games/cbnst_xbox.png"
+                                                                                    border="0" />
+                                                                                <img src="./images/games/cbnst_pc.jpg"
+                                                                                    border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <div class="content">
+                                                    <table width="100%">
+                                                        <tr>
+                                                            <td valign="top" style="padding-right: 10px;">
+                                                                <table width="100%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h1 class="cool-title"
+                                                                                style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                                Crash™ Team Racing Nitro-Fueled</h1>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                                Crash is back in the driver’s seat! Get
+                                                                                ready to go fur-throttle with Crash™
+                                                                                Team Racing Nitro-Fueled. It’s the
+                                                                                authentic CTR experience plus a whole
+                                                                                lot more, now fully-remastered and
+                                                                                revved up to the max.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                &nbsp;</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date: June 21, 2019.</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td style="width: 49%;">
+                                                                <div class="content-mini">
+                                                                    <table align="center">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <img src="./images/games/ctrnf_ps4.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/ctrnf_switch.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/ctrnf_xbox.jpg"
+                                                                                    border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <div class="content">
+                                                    <table width="100%">
+                                                        <tr>
+                                                            <td valign="top" style="padding-right: 10px;">
+                                                                <table width="100%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h1 class="cool-title"
+                                                                                style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                                Crash Bandicoot™ 4: It’s About Time</h1>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 20px; text-align: justify; margin: 0;">
+                                                                                IT'S ABOUT TIME! LITERALLY.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                                The devious villains Neo Cortex and Dr.
+                                                                                N. Tropy have finally escaped their
+                                                                                interdimensional prison, leaving an evil
+                                                                                scientist sized hole in the universe.
+                                                                                Now they’ve got their eyes set on not
+                                                                                only simply conquering this dimension,
+                                                                                but all dimensions, and it’s up to crash
+                                                                                and coco to save the day. N. Sanity
+                                                                                Beach is where Crash’s adventure first
+                                                                                started, and where it begins in Crash 4.
+                                                                                But there have definitely been changes
+                                                                                since players first saw N. Sanity Beach
+                                                                                all those years ago, and throughout
+                                                                                Crash 4 you’ll notice changes to
+                                                                                gameplay and even the art style.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                &nbsp;</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (PlayStation 4, Xbox
+                                                                                One): October 2, 2020.</p>
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (Nintendo Switch, PlayStation 5, Xbox Series X/S): March 12, 2021.
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (Battle.net): March 26, 2021.
+                                                                            <p class="cool-font"
+                                                                                style="font-size: 15px; text-align: right; margin: 0;">
+                                                                                Release date (Steam): October 18, 2022.
+                                                                            </p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td style="width: 49%;">
+                                                                <div class="content-mini">
+                                                                    <table align="center">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <img src="../images/games/cb4iat_ps4.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/cb4iat_ps5.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/cb4iat_switch.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/cb4iat_xbox.jpg"
+                                                                                    border="0" />
+                                                                                <img src="../images/games/cb4iat_pc.jpg"
+                                                                                    border="0" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td width="10%"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="footer">
+        <tbody>
+            <tr>
+                <td align="center" valign="bottom" colspan="3">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td valign="bottom">
+                                <img src="../images/common/footer_top.png" height="25" border="0" valign="bottom"
+                                    style="width: 100%;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#000000" align="center">
+                                <table border="0" cellpadding="0" cellspacing="5" width="80%">
+                                    <tr align="center">
+                                        <td>
+                                            <img alt="Activision" src="../images/logos/footer/5.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Playstation" src="../images/logos/footer/2.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Playstation4" src="../images/logos/footer/3.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Nintendo Switch" src="../images/logos/footer/1.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="XBox One" src="../images/logos/footer/6.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Steam" src="../images/logos/footer/8.jpg" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#EED000">
+                                <img src="../images/common/footer_bottom.png" height="25" border="0"
+                                    style="width: 100%;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" bgcolor="#EED000">
+                                <table border="0" cellpadding="0" cellspacing="0" width="95%"
+                                    style="margin-bottom: 1em;">
+                                    <tr>
+                                        <td align="center">
+                                            <font id="legal">© 2022 Activision Publishing Inc. ACTIVISION, CRASH TEAM
+                                                RACING, CTR, CRASH BANDICOOT, CRASH and CRASH: ON THE RUN! are
+                                                trademarks of Activision Publishing, Inc. The rating icon is a trademark
+                                                of the Entertainment Software Association. All other trademarks and
+                                                trade names are the properties of their respective owners. Activision
+                                                Publishing, Inc. has no association with and takes no responsibility for
+                                                the content in this web site.</font>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

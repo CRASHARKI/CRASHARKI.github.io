@@ -50,15 +50,6 @@
             }
         }
 
-        var buttons = new Array();
-        buttons[5] = "./images/header/home_on.png";
-        buttons[6] = "./images/header/games_on.png";
-        buttons[7] = "./images/header/characters_on.png";
-        buttons[8] = "./images/header/downloads_on.png";
-        buttons[9] = "./images/header/links_on.png";
-        buttons[10] = "./images/header/purchase_on.png";
-        buttons[11] = "./images/header/news_on.png";
-
     </script>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
 </head>
@@ -79,47 +70,52 @@
                                 <table border="0" cellpadding="0" cellspacing="0" align="center" width="710px">
                                     <tr>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('home','',buttons[5],1)" href="./HomeUK.html">
-                                                <img name="home" src="./images/header/home_off.png" border="0" /></a>
+                                            <a href="./HomeUK.html">
+                                                <img name="home" src="./images/header/home_off.png"
+                                                    onmouseover="this.src='./images/header/home_on.png'"
+                                                    onmouseout="this.src='./images/header/home_off.png'"
+                                                    border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('games','',buttons[6],1)"
-                                                href="./GamesUK.html">
-                                                <img name="games" src="./images/header/games_off.png" border="0" /></a>
+                                            <a href="./GamesUK.html">
+                                                <img name="games" src="./images/header/games_off.png"
+                                                    onmouseover="this.src='./images/header/games_on.png'"
+                                                    onmouseout="this.src='./images/header/games_off.png'"
+                                                    border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('characters','',buttons[7],1)"
-                                                href="./CharactersUK.html">
+                                            <a href="./CharactersUK.html">
                                                 <img name="characters" src="./images/header/characters_off.png"
+                                                    onmouseover="this.src='./images/header/characters_on.png'"
+                                                    onmouseout="this.src='./images/header/characters_off.png'"
                                                     border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('downloads','',buttons[8],1)"
-                                                href="./DownloadsUK.html">
+                                            <a href="./DownloadsUK.html">
                                                 <img name="downloads" src="./images/header/downloads_off.png"
+                                                    onmouseover="this.src='./images/header/downloads_on.png'"
+                                                    onmouseout="this.src='./images/header/downloads_off.png'"
                                                     border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('news','',buttons[11],1)"
-                                                href="./NewsUK.html">
-                                                <img name="news" src="./images/header/news_off.png" border="0" /></a>
+                                            <a href="./NewsUK.html">
+                                                <img name="news" src="./images/header/news_off.png"
+                                                    onmouseover="this.src='./images/header/news_on.png'"
+                                                    onmouseout="this.src='./images/header/news_off.png'"
+                                                    border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('links','',buttons[9],1)"
-                                                href="./LinksUK.html">
-                                                <img name="links" src="./images/header/links_off.png" border="0" /></a>
+                                            <a href="./LinksUK.html">
+                                                <img name="links" src="./images/header/links_off.png"
+                                                    onmouseover="this.src='./images/header/links_on.png'"
+                                                    onmouseout="this.src='./images/header/links_off.png'"
+                                                    border="0" /></a>
                                         </td>
                                         <td class="menuItem">
-                                            <a onmouseout="MM_swapImgRestore()"
-                                                onmouseover="MM_swapImage('purchase','',buttons[10],1)"
-                                                href="https://www.crashbandicoot.com/crash4/buy">
+                                            <a href="https://www.crashbandicoot.com/crash4/buy">
                                                 <img name="purchase" src="./images/header/purchase_off.png"
+                                                    onmouseover="this.src='./images/header/purchase_on.png'"
+                                                    onmouseout="this.src='./images/header/purchase_off.png'"
                                                     border="0" /></a>
                                         </td>
                                     </tr>

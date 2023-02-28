@@ -33,19 +33,10 @@
             animation-fill-mode: forwards;
         }
     </style>
-    <script language="javascript">
-        var buttons = new Array();
-        buttons[0] = "./images/common/button_uk_on.gif";
-        buttons[1] = "./images/common/button_de_on.gif";
-        buttons[2] = "./images/common/button_fr_on.gif";
-        buttons[3] = "./images/common/button_es_on.gif";
-        buttons[4] = "./images/common/button_it_on.gif";
-    </script>
 </head>
 
 <body background="./images/common/background_splash.gif" bgcolor="#EED000" leftmargin="0" topmargin="0" marginwidth="0"
-    marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;"
-    onload="MM_preloadImages(buttons[0],buttons[1],buttons[2],buttons[3],buttons[4]);">
+    marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;">
     <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" style="position: absolute">
         <tr>
             <td align="center" valign="center">
@@ -55,11 +46,12 @@
                         <td align="center">
                             <table border="0" cellpadding="0" cellspacing="0">
                                 <tr>
-                                    <td valign="bottom"><a onmouseout="MM_swapImgRestore()"
-                                            onmouseover="MM_swapImage('english','',buttons[0],1)"
-                                            href="./uk/HomeUK.html">
+                                    <td valign="bottom"><a href="./uk/HomeUK.html">
                                             <img name="english" src="./images/common/button_uk_off.gif"
-                                                border="0" /></a></td>
+                                                onmouseover="this.src='./images/common/button_uk_on.gif'"
+                                                onmouseout="this.src='./images/common/button_uk_off.gif'"
+                                                border="0" /></a>
+                                    </td>
                                     <td colspan="4" align="center">
                                         <img id="splash" src="./images/common/splash.png" border="0" />
                                     </td>
@@ -68,34 +60,36 @@
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
-                                    <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()"
-                                            onmouseover="MM_swapImage('german','',buttons[1],1)"
-                                            href="./de/HomeDE.html">
-                                            <img name="german" src="./images/common/button_de_off.gif" border="0" /></a>
+                                    <td valign="top" align="center"><a href="./de/HomeDE.html">
+                                            <img name="german" src="./images/common/button_de_off.gif"
+                                                onmouseover="this.src='./images/common/button_de_on.gif'"
+                                                onmouseout="this.src='./images/common/button_de_off.gif'"
+                                                border="0" /></a>
                                     </td>
                                     <td align="center">
                                         <br />
                                         <br />
-                                        <a onmouseout="MM_swapImgRestore()"
-                                            onmouseover="MM_swapImage('francais','',buttons[2],1)"
-                                            href="./fr/HomeFR.html">
+                                        <a href="./fr/HomeFR.html">
                                             <img name="francais" src="./images/common/button_fr_off.gif"
+                                                onmouseover="this.src='./images/common/button_fr_on.gif'"
+                                                onmouseout="this.src='./images/common/button_fr_off.gif'"
                                                 border="0" /></a>
                                     </td>
                                     <td align="center">
                                         <br />
                                         <br />
-                                        <a onmouseout="MM_swapImgRestore()"
-                                            onmouseover="MM_swapImage('espanol','',buttons[3],1)"
-                                            href="./es/HomeES.html">
+                                        <a href="./es/HomeES.html">
                                             <img name="espanol" src="./images/common/button_es_off.gif"
+                                                onmouseover="this.src='./images/common/button_es_on.gif'"
+                                                onmouseout="this.src='./images/common/button_es_off.gif'"
                                                 border="0" /></a>
                                     </td>
-                                    <td valign="top" align="center"><a onmouseout="MM_swapImgRestore()"
-                                            onmouseover="MM_swapImage('italiano','',buttons[4],1)"
-                                            href="./it/HomeIT.html">
+                                    <td valign="top" align="center"><a href="./it/HomeIT.html">
                                             <img name="italiano" src="./images/common/button_it_off.gif"
-                                                border="0" /></a></td>
+                                                onmouseover="this.src='./images/common/button_it_on.gif'"
+                                                onmouseout="this.src='./images/common/button_it_off.gif'"
+                                                border="0" /></a>
+                                    </td>
                                     <td>&nbsp;</td>
                                 </tr>
                             </table>

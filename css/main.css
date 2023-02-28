@@ -149,6 +149,14 @@ a:hover {
     animation-fill-mode: forwards;
 }
 
+.bounceinfinite:hover {
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 @keyframes appear {
     0% {
         opacity: 0;

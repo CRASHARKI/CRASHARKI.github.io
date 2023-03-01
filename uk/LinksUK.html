@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CRASH BANDICOOT N-OFFICIAL</title>
+    <meta name="keywords"
+        content="crash bandicoot, crash nitro kart, wrath of cortex, the huge adventure, n-tranced, coco, crunch, downloads, screenshots, video game, community, entertainment, universal, universal interactive, vivendi, vivendi universal games" />
+    <meta name="description"
+        content="Welcome to the unofficial website for the Crash Bandicoot series of videogames." />
+    <script language="javascript" type="text/javascript" src="../js/main.js"></script>
+    <script language="javascript">
+        var lang = "UK";
+
+        function clubnews() {
+            launch('./html/popups/clubnews' + lang + '.html', 'whatsnew', '570', '550', 'yes', 'no');
+        }
+
+        function privacy() {
+            launch('./html/popups/privacy' + lang + '.html', 'privacy', '570', '460', 'yes', 'no');
+        }
+
+        function support() {
+            launch('./html/popups/support' + lang + '.html', 'support', '570', '460', 'yes', 'no');
+        }
+
+        function register() {
+            launch('http://www.vugames-europe.com/Eregistrations/ereg' + lang.toLowerCase() + '.htm', 'register', '600', '600', 'no', 'no');
+        }
+
+        function newsletter() {
+            launch('http://www.vugames-europe.com/newsletters/vug/newsletter_portal_' + lang.toLowerCase() + '.html', 'newsletter', '400', '430', 'no', 'no');
+        }
+
+        function screensaverinstructions(type) {
+            launch('./html/popups/install_screensaver_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
+        }
+
+        function wallpaperinstructions(type) {
+            launch('./html/popups/install_wallpaper_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
+        }
+
+        var backImage = new Array();
+        backImage[0] = "../images/common/background.gif";
+        backImage[1] = "../images/common/background_crashclub.gif";
+        function changeBGImage(whichImage) {
+            if (document.body) {
+                document.body.background = backImage[whichImage];
+            }
+        }
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+</head>
+
+<body background="../images/common/background.gif" bgcolor="#053D6F" leftmargin="0" topmargin="0" marginwidth="0"
+    marginheight="0" style="background-size: contain; background-repeat: repeat-x; background-attachment: fixed;">
+    <div class="global-nav-container">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td></td>
+                <td align="center" width="780px" height="204px">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="header">
+                        <tr height="138px">
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="710px">
+                                    <tr>
+                                        <td class="menuItem">
+                                            <a href="./HomeUK.html">
+                                                <img name="home" src="./images/header/home_off.png"
+                                                    onmouseover="this.src='./images/header/home_on.png'"
+                                                    onmouseout="this.src='./images/header/home_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="./GamesUK.html">
+                                                <img name="games" src="./images/header/games_off.png"
+                                                    onmouseover="this.src='./images/header/games_on.png'"
+                                                    onmouseout="this.src='./images/header/games_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="./CharactersUK.html">
+                                                <img name="characters" src="./images/header/characters_off.png"
+                                                    onmouseover="this.src='./images/header/characters_on.png'"
+                                                    onmouseout="this.src='./images/header/characters_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="./DownloadsUK.html">
+                                                <img name="downloads" src="./images/header/downloads_off.png"
+                                                    onmouseover="this.src='./images/header/downloads_on.png'"
+                                                    onmouseout="this.src='./images/header/downloads_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="./NewsUK.html">
+                                                <img name="news" src="./images/header/news_off.png"
+                                                    onmouseover="this.src='./images/header/news_on.png'"
+                                                    onmouseout="this.src='./images/header/news_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="./LinksUK.html">
+                                                <img name="links" src="./images/header/links_off.png"
+                                                    onmouseover="this.src='./images/header/links_on.png'"
+                                                    onmouseout="this.src='./images/header/links_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                        <td class="menuItem">
+                                            <a href="https://www.crashbandicoot.com/crash4/buy">
+                                                <img name="purchase" src="./images/header/purchase_off.png"
+                                                    onmouseover="this.src='./images/header/purchase_on.png'"
+                                                    onmouseout="this.src='./images/header/purchase_off.png'"
+                                                    border="0" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"
+        style="margin-top: 160px; margin-bottom: 160px;">
+        <tbody>
+            <tr>
+                <td width="10%" valign="top" style="min-width: 125px;">
+                    <table border="0" cellpadding="0" cellspacing="5" class="lang">
+                        <tr align="center">
+                            <td><a href="../uk/LinksUK.html">
+                                    <img class="brightness" name="english" src="../images/common/button_uk.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../de/LinksDE.html">
+                                    <img class="brightness" name="german" src="../images/common/button_de.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../fr/LinksFR.html">
+                                    <img class="brightness" name="francais" src="../images/common/button_fr.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../es/LinksES.html">
+                                    <img class="brightness" name="espanol" src="../images/common/button_es.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="../it/LinksIT.html">
+                                    <img class="brightness" name="italiano" src="../images/common/button_it.png"
+                                        border="0" /></a></td>
+                        </tr>
+                        <tr align="center">
+                            <td><a href="http://www.crashbandicoot.com/">
+                                    <img class="brightness" name="us" src="../images/common/button_us.png"
+                                        border="0" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="center">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"
+                        style="margin-top: 1em;">
+                        <tbody>
+                            <tr>
+                                <td class="base-body">
+                                    <table class="appear" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="content">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                        align="center">
+                                                        <tr>
+                                                            <td>
+                                                                <h1 class="cool-title"
+                                                                    style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    ORIGINAL CRASH BANDICOOT-EUROPE SITE FUNCTIONS</h1>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="cool-font"
+                                                                    style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                    Here are some of the popups and functionalities of
+                                                                    the original site from 2003 to 2007. These include
+                                                                    popups and a background change depending on the
+                                                                    Crash Club.
+                                                                </p>
+                                                                <p class="cool-font"
+                                                                    style="font-size: 15px; text-align: center; margin: 0;">
+                                                                    Popups: <a href="javascript:clubnews();">Club
+                                                                        News</a> - <a
+                                                                        href="javascript:privacy();">Privacy</a> - <a
+                                                                        href="javascript:support();">Support</a>
+                                                                </p>
+                                                                <p class="cool-font"
+                                                                    style="font-size: 15px; text-align: center; margin: 0;">
+                                                                    Functions: <a
+                                                                        href="javascript:changeBGImage(0);">Change to
+                                                                        Crash Site Mode</a> - <a
+                                                                        href="javascript:changeBGImage(1)">Change to
+                                                                        Crash Club Mode</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>&nbsp;</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="50%" valign="top">
+                                                <div class="content">
+                                                    <table width="100%">
+                                                        <tr>
+                                                            <td>
+                                                                <h1 class="cool-title"
+                                                                    style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    OFFICIAL LINKS</h1>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <p class="cool-font"
+                                                                    style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                    Here you can find the official links to different
+                                                                    Crash Bandicoot™ sites, including publishers and
+                                                                    developers, and social media.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <h3 class="cool-title"
+                                                                    style="font-size: 25px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    Web Sites</h3>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="content-mini" align="center" valign="center"
+                                                                    style="margin: 0; margin-bottom: 0.3em;">
+                                                                    <a href="http://www.crashbandicoot.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/crash_latest_logo_official.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="https://www.activision.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/activision_logo_white-text.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="http://www.beenox.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/beenox-logo.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="http://www.vvisions.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/VicVis_Logo.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="https://www.toysforbob.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/ToysForBob_Logo_001_v2.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="http://irongalaxystudios.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/irongalaxy.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <h3 class="cool-title"
+                                                                    style="font-size: 25px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    Social Media</h3>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="content-mini" align="center" valign="center"
+                                                                    style="margin: 0; margin-bottom: 0.3em; padding-top: 30px;">
+                                                                    <a href="https://www.instagram.com/crashbandicoot/">
+                                                                        <img class="bounceinfinite" src="../images/logos/ig-no-shadow.png"
+                                                                            border="0" style="max-width: 100px;" /></a>
+                                                                    <a href="https://twitter.com/crashbandicoot">
+                                                                        <img class="bounceinfinite" src="../images/logos/tw-no-shadow.png"
+                                                                            border="0" style="max-width: 100px;" /></a>
+                                                                    <a href="https://www.facebook.com/CrashBandicoot/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fb-no-shadow.png"
+                                                                            border="0" style="max-width: 100px;" /></a>
+                                                                    <a href="https://www.youtube.com/@crashbandicoot">
+                                                                        <img class="bounceinfinite" src="../images/logos/yt-no-shadow.png"
+                                                                            border="0" style="max-width: 100px;" /></a>
+                                                                    <a href="https://www.tiktok.com/@crashbandicoot/">
+                                                                        <img class="bounceinfinite" src="../images/logos/tiktok-icon.png"
+                                                                            border="0" style="max-width: 100px;" /></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td width="50%" valign="top">
+                                                <div class="content">
+                                                    <table width="100%">
+                                                        <tr>
+                                                            <td>
+                                                                <h1 class="cool-title"
+                                                                    style="font-size: 30px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    N-OFFICIAL LINKS</h1>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="cool-font"
+                                                                    style="font-size: 15px; text-align: justify; margin: 0;">
+                                                                    Here you can find links to unofficial Crash
+                                                                    Bandicoot™ fan-sites and related communities. Also,
+                                                                    you can find links to archived versions of the
+                                                                    classic sites, keep in mind that most of these sites
+                                                                    require you to be able to use Flash Player.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <h3 class="cool-title"
+                                                                    style="font-size: 25px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    Fan Sites</h3>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="content-mini" align="center" valign="center"
+                                                                    style="margin: 0; margin-bottom: 0.3em;">
+                                                                    <a href="https://www.crashmania.net/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/crashmania.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="http://old.crashmania.net/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/crashmania-old.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="https://crashbandicoot.fandom.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/bandipedia.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="https://crashynews.wordpress.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/crashy-news.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="http://beyondtwinsanity.com/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/beyond-twinsanity.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                    <a href="https://crashzone.forumcommunity.net/">
+                                                                        <img class="bounceinfinite" src="../images/logos/fan/crash-zone.png"
+                                                                            border="0"
+                                                                            style="max-width: 200px; margin: 10px;" /></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <h3 class="cool-title"
+                                                                    style="font-size: 25px; text-align: center; margin: 0; margin-bottom: 0.1em;">
+                                                                    Archived Classic Sites</h3>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="content-mini" align="center" valign="center"
+                                                                    style="font-size: 15px; margin: 0; margin-bottom: 0.3em;">
+                                                                    <a
+                                                                        href="http://web.archive.org/web/20130605035624/http://www.crashbandicoot3.com/">
+                                                                        <p>Crash Bandicoot 3 - Warped</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20011020080154/http://wrathofcortex.com/">
+                                                                        <p>Crash Bandicoot: The Wrath of Cortex</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20020324230710/http://www.crashbandicoot.com:80/home.html">
+                                                                        <p>CRASH BANDICOOT (2002)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20031207034850/http://www.crashbandicoot-europe.com/">
+                                                                        <p>CRASH BANDICOOT-EUROPE (Language Select)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20050603025414/http://www.crashbandicoot-europe.com/">
+                                                                        <p>CRASH BANDICOOT-EUROPE (Language Select Late)
+                                                                        </p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20040204024501/http://www.crashbandicoot-europe.com/uk/index_main.asp">
+                                                                        <p>CRASH BANDICOOT-EUROPE</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20030408034049/http://www.crashntranced.com/">
+                                                                        <p>Crash 2 : N-Tranced (Language Select)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20030803070936/http://www.crashntranced.com/crash_fr/crashfr.htm">
+                                                                        <p>Crash 2 : N-Tranced (Francais)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20030406033857/http://www.crashntranced.com/crash_it/crashit.htm">
+                                                                        <p>Crash 2 : N-Tranced (Italian)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20050526013103/http://nitrokart.crashbandicoot.com/">
+                                                                        <p>Crash Nitro Kart</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20040519121205/http://www.orangeandpurple.vugames.com/">
+                                                                        <p>Orange & Purple: Spyro and Crash Join Forces!
+                                                                        </p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20050525014851/http://www.crashbandicoot.com:80/">
+                                                                        <p>Crashbandicoot.com - Crash Twinsanity</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20040924014210/http://twinsanity.crashbandicoot.com:80/us/">
+                                                                        <p>Crash Twinsanity</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20051125000810/http://www.crashbandicoot.com/">
+                                                                        <p>Crashbandicoot.com - Crash™ - Tag Team Racing
+                                                                        </p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20051124144429/http://ttr.crashbandicoot.com/us/">
+                                                                        <p>Crash™ - Tag Team Racing.</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="http://www.divisionagency.com/archive/crash_bandicoot/">
+                                                                        <p>Crash Bandicoot (2007)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="http://divisionagency.com/archive/crash_boom_bang/">
+                                                                        <p>Crash Boom Bang - Multiplayer Minigame
+                                                                            Mayhem...Crash Style!</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20071015002703/http://village.crashbandicoot.com/splash/">
+                                                                        <p>Welcome to Crash Village (uk=Titans,
+                                                                            us=Mutant)</p>
+                                                                    </a>
+                                                                    <a
+                                                                        href="https://web.archive.org/web/20080719071016/http://crashandspyro.com.au/?static=true">
+                                                                        <p>Hero Rated (Crash And Spyro Australia)</p>
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td width="10%"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="footer">
+        <tbody>
+            <tr>
+                <td align="center" valign="bottom" colspan="3">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                            <td valign="bottom">
+                                <img src="../images/common/footer_top.png" height="25" border="0" valign="bottom"
+                                    style="width: 100%;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#000000" align="center">
+                                <table border="0" cellpadding="0" cellspacing="5" width="80%">
+                                    <tr align="center">
+                                        <td>
+                                            <img alt="Activision" src="../images/logos/footer/5.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Playstation" src="../images/logos/footer/2.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Playstation4" src="../images/logos/footer/3.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Nintendo Switch" src="../images/logos/footer/1.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="XBox One" src="../images/logos/footer/6.jpg" />
+                                        </td>
+                                        <td>
+                                            <img alt="Steam" src="../images/logos/footer/8.jpg" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#EED000">
+                                <img src="../images/common/footer_bottom.png" height="25" border="0"
+                                    style="width: 100%;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" bgcolor="#EED000">
+                                <table border="0" cellpadding="0" cellspacing="0" width="95%"
+                                    style="margin-bottom: 1em;">
+                                    <tr>
+                                        <td align="center">
+                                            <font id="legal">© 2022 Activision Publishing Inc. ACTIVISION, CRASH TEAM
+                                                RACING, CTR, CRASH BANDICOOT, CRASH and CRASH: ON THE RUN! are
+                                                trademarks of Activision Publishing, Inc. The rating icon is a trademark
+                                                of the Entertainment Software Association. All other trademarks and
+                                                trade names are the properties of their respective owners. Activision
+                                                Publishing, Inc. has no association with and takes no responsibility for
+                                                the content in this web site.</font>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

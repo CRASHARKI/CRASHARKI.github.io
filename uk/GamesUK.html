@@ -10,47 +10,6 @@
     <meta name="description"
         content="Welcome to the unofficial website for the Crash Bandicoot series of videogames." />
     <script language="javascript" type="text/javascript" src="../js/main.js"></script>
-    <script language="javascript">
-        var lang = "UK";
-
-        function clubnews() {
-            launch('./html/popups/clubnews' + lang + '.html', 'whatsnew', '570', '550', 'yes', 'no');
-        }
-
-        function privacy() {
-            launch('./html/popups/privacy' + lang + '.html', 'privacy', '570', '460', 'yes', 'no');
-        }
-
-        function support() {
-            launch('./html/popups/support' + lang + '.html', 'support', '570', '460', 'yes', 'no');
-        }
-
-        function register() {
-            launch('http://www.vugames-europe.com/Eregistrations/ereg' + lang.toLowerCase() + '.htm', 'register', '600', '600', 'no', 'no');
-        }
-
-        function newsletter() {
-            launch('http://www.vugames-europe.com/newsletters/vug/newsletter_portal_' + lang.toLowerCase() + '.html', 'newsletter', '400', '430', 'no', 'no');
-        }
-
-        function screensaverinstructions(type) {
-            launch('./html/popups/install_screensaver_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
-        }
-
-        function wallpaperinstructions(type) {
-            launch('./html/popups/install_wallpaper_' + type + lang + '.html', 'screensaver', '550', '200', 'no', 'no');
-        }
-
-        var backImage = new Array();
-        backImage[0] = "../images/common/background.gif";
-        backImage[1] = "../images/common/background_crashclub.gif";
-        function changeBGImage(whichImage) {
-            if (document.body) {
-                document.body.background = backImage[whichImage];
-            }
-        }
-
-    </script>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
 </head>
 
@@ -210,7 +169,7 @@
                                                                         <table align="center">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img class="bounce"
+                                                                                    <img class="bounceinfinite"
                                                                                         src="../images/games/games_ps1.png"
                                                                                         border="0" />
                                                                                 </td>
@@ -261,7 +220,7 @@
                                                                         <table align="center">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img class="bounce"
+                                                                                    <img class="bounceinfinite"
                                                                                         src="../images/home/games_old.png"
                                                                                         border="0" />
                                                                                 </td>
@@ -309,7 +268,7 @@
                                                                         <table align="center">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img class="bounce"
+                                                                                    <img class="bounceinfinite"
                                                                                         src="../images/games/games_gba.png"
                                                                                         border="0" />
                                                                                 </td>
@@ -357,7 +316,7 @@
                                                                         <table align="center">
                                                                             <tr>
                                                                                 <td>
-                                                                                    <img class="bounce"
+                                                                                    <img class="bounceinfinite"
                                                                                         src="../images/home/games_new.png"
                                                                                         border="0" />
                                                                                 </td>

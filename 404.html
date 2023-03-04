@@ -11,15 +11,19 @@
     <script language="javascript">
         var lang = "uk";
 
-        alert(document.location.pathname);
-
         window.onload = function () {
+            if (document.location.pathname.slice(1, 3) == "uk" || document.location.pathname.slice(1, 3) == "de" || document.location.pathname.slice(1, 3) == "fr" || document.location.pathname.slice(1, 3) == "es" || document.location.pathname.slice(1, 3) == "it") {
+                lang = document.location.pathname.slice(1, 3);
+                document.getElementById('stylecss').setAttribute('href', '../css/main.css');
+                document.getElementById('errorImage').setAttribute('src', '../images/common/errorScreen.jpg');
+            }
+
             document.querySelectorAll('.' + lang).forEach(e => {
                 e.removeAttribute('hidden');
             });
         }
     </script>
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link id="stylecss" rel="stylesheet" type="text/css" href="./css/main.css" />
 </head>
 
 <body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -59,7 +63,7 @@
                     </tr>
                     <tr>
                         <td align="center">
-                            <img class="appear" src="./images/common/errorScreen.jpg" border="0"
+                            <img id="errorImage" class="appear" src="./images/common/errorScreen.jpg" border="0"
                                 style="margin-top: 1em;" />
                         </td>
                     </tr>

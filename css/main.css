@@ -86,12 +86,35 @@ a:hover {
 .cool-font {
     font-family: 'AdLib WGL4 BT';
     color: #FFFFFF;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0;
+}
+
+.cool-font-bigger {
+    font-family: 'AdLib WGL4 BT';
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0;
 }
 
 .cool-title {
     -webkit-text-stroke: 1px #CD3137;
     font-family: 'AdLib WGL4 BT';
     color: #E8CB00;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.cool-subtitle {
+    -webkit-text-stroke: 1px #CD3137;
+    font-family: 'AdLib WGL4 BT';
+    color: #E8CB00;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
 }
 
 .base-body {
@@ -107,7 +130,7 @@ a:hover {
 .content {
     font-family: 'AdLib WGL4 BT';
     border-radius: 10px;
-    margin: 1em;
+    margin: 10px;
     padding: 10px;
     background: url(../images/common/container.jpg);
     background-size: contain;
@@ -126,6 +149,11 @@ a:hover {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.character {
+    max-width: 100%;
+    max-height: 40vh;
 }
 
 /*-- Animations ----------------------------------------------------------*/
